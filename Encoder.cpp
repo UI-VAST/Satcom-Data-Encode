@@ -29,6 +29,7 @@ void Encoder::EncodeData()
 	bitString.append(Encode(&dat.temperatureE, 10));
 	bitString.append(Encode(&dat.temperatureI, 10));
 	bitString.append(Encode(&dat.signalStrength, 3));
+	bitString.append(Encode(&dat.clock, 17));
 }
 std::string Encoder::getBitString()
 {

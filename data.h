@@ -8,4 +8,5 @@ public:
     int temperatureE = 000; //10
     int temperatureI = 000; //10
     int signalStrength = 0; //3 stop here
+    int clock = 000000;
 };
